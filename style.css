@@ -1,0 +1,52 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  width: 70%;
+  height: 100%;
+  margin: 10px 20px 10px 20px;
+  overflow: hidden;
+  text-align: justify;
+}
+
+a {
+  font-size: larger;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+ul {
+  margin-left: 0;
+}
+
+main p,
+li {
+  padding: 10px;
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+}
+
+nav li {
+  padding: 15px;
+  border-top: 1px solid black;
+}
+
+aside {
+  width: 30%;
+  height: 100%;
+  background-color: rgb(138, 125, 125);
+}
+
+.main-heading {
+  text-align: center;
+  color: #fff;
+  padding: 25px;
+}
